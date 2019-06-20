@@ -8,7 +8,7 @@ namespace DiceRoller
     {
         readonly Random random = new Random();
 
-        public List<int> GetDiceRollResultsList(int dieChoice, int numberOfDiceChoice)
+        public List<int> GetDiceRollResultsList(string dieChoice, int numberOfDiceChoice)
         {
             var diceRollResults = new List<int>();
 
